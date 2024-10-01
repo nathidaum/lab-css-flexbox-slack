@@ -831,3 +831,311 @@ body {
         margin: 30px; 
     }
 }
+
+@media (min-width: 1440px){
+    .menu {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .menu-items a {
+        color: white;
+        text-decoration: none;
+        padding: 50px;
+    }
+    nav {
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+        padding: 20px; 
+        margin: 0px;
+        border-bottom: 1px solid #540B51;
+        overflow: hidden;
+        box-sizing:border-box;
+        width: 100%;
+    }
+    .icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #hamburger-menu {
+        display:none;
+    }
+
+    .icons a {
+        color: white;
+        text-decoration: none;
+        padding-right: 40px;
+    }
+
+    .nav-buttons {
+        color: white; 
+    }
+    #try-button {
+        background-color: white;
+        padding: 10px 20px; 
+    }
+    #try-button a {
+        color:#540B51;
+        text-align: center; 
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    #signin-button{
+        padding: 10px 30px; 
+    }
+
+    nav img {
+        width: 180px;
+    }
+    .icons img {
+        height: 30px;
+        width: auto;
+        background-color: #540B51;
+        border: 0px;
+        margin-right: 50px;
+    }
+    .icons button {
+        border: 0px; 
+        background-color: #540B51;
+    }
+
+    header {
+        background-color: #540B51;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header div {
+        flex-grow: 1;
+    }
+
+    h1 {
+        font-size: 70px;
+        font-weight: 600;
+        color: white;
+        text-align: left;
+        padding: 40px;
+        width: 70%;
+    }
+    header p {
+        color: white; 
+        text-align: left;
+        font-size: 24px;
+        padding-left: 40px;
+    }
+    header span {
+        font-weight: bold; 
+        color: orange;
+    }
+    header button {
+        text-transform: uppercase;
+        height: 60px;
+        margin: 10px;
+        font-size: 20px;
+        padding: 8px;
+        border: none;
+        width: 40%
+    }
+    #google-icon {
+        height: 90%;
+        background-color: white;
+        margin-right: auto;
+    }
+    .google-signup {
+        background-color: #4285F4;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .google-signup span{
+        color: white;
+        font-weight: normal;
+        text-align: center;
+        margin-right: auto;
+    }
+
+    header .buttons {
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-start;
+        margin: 30px;
+        flex-grow: 1;
+        margin-bottom: 100px;
+    }
+    .hero-image {
+        overflow: hidden;
+    }
+    .hero-image img {
+        width: 500px;
+        margin-right: 400px;
+    }
+
+    .companies {
+        background-color: #F3EAE2;
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        padding: 30px;
+    }
+    .companies p{
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    .companies div {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .companies img {
+        height: 5rem;
+        width: auto;
+        padding: 20px;
+    } 
+
+    .team {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team ul {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-grow: 1;
+    }
+
+    .team li {
+        list-style-type: none;
+        text-align: center;
+        padding: 20px 40px;
+    }
+    .team h3 {
+        color: #540B51;
+        font-size: 32px;
+        padding: 50px 50px 20px;
+        text-align: center;
+    }
+    .team .subtitle {
+        font-size: 20px;
+        text-align:center;
+        margin-bottom: 30px;
+        text-align: center;
+        padding: 0px 40px;
+    }
+    .team span {
+        font-size: 80px;
+        font-weight: 900;
+        color:#540B51;
+        text-align: center;
+    }
+
+    .subline {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .welcome {
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #540B51;
+        padding: 50px;
+        flex-wrap: wrap;
+    }
+
+    .welcome h3 {
+        color: white;
+        font-size: 48px;
+        padding-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    .welcome button {
+        border: none;
+        background-color: inherit;
+        text-transform: uppercase;
+        height: 80px;
+        margin: 10px;
+        font-size: 20px;
+        padding: 8px;
+        font-weight: 500;
+    }
+    .welcome > :nth-child(2) {
+        background-color: white;
+        color:#540B51;
+        border-radius: 5px;
+        width: 300px;
+    }
+    .welcome > :nth-child(3) {
+        background-color:#540B51;
+        color: white;
+        border: 3px solid white;
+        border-radius: 5px;
+        width: 300px;
+    }
+    footer {
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    footer ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px;
+        font-size: 14px; 
+        font-weight: 700;
+    }
+    footer > :nth-child(1) {
+        border-top: 1px solid #454245;
+        margin-top: 20px;
+        padding: 20px 0;
+    }
+
+    footer li {
+        padding: 10px 10px;
+        list-style-type: none;
+        height: 50px;
+    }
+    footer li:last-child {
+        color: #2E71A6;
+    }
+    footer li:last-child img {
+        padding-right: 10px;
+    }
+    .sociallinks {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-start;
+        padding: 10px 0px;
+    }
+    .small {
+        text-align: center;
+        margin: 30px; 
+    }
+}
